@@ -1,1 +1,7 @@
 # Modelling-extreme-events-using-point-processes
+
+This was the final project undertaken by Manon Shapiro and myself in our Post Graduate Statistics Honours. We were interested in looking at Point Processes as a mechanism of capturing occurences of environmental extremes, in this instance, CO2 readings from a Savanna site in Kimberly, South Africa.
+
+Temporal data of extremes has a tendency to occur in clusters. The dependency with which events occur poses a particular challenge to the modelling process. There are numerous schools of thought aimed at evaluating extreme events, such as Extreme Value Theory, but most make the assumption of independence between events, which is often not the case. Consider an earthquake, from which the aftershocks trigger further eartchquakes. Certainly the initial earthquake and the ones that follow cannot be considered independent. 
+
+In this project, we assessed the efficacy of a simple Poisson Process, a Hawkes Process and a Marked Hawkes Process in their ability to capture the underlying CO2 system in the Savanna site. A particular challenge posed by this project was the relative obscurity of the distributions we assessed, resulting in nearly all of the functions required to model, plot and evaluate the data being written by ourselves. I have attached our final thesis document to this repository for a more in-depth explanation of the content and our findings.
